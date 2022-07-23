@@ -1,0 +1,3 @@
+﻿  test subject.c
+D:\My codes\test subject\test subject.c(15,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
+  test subject.vcxproj -> D:\My codes\test subject\Debug\test subject.exe
