@@ -39,4 +39,16 @@ and if you are satisfied with this new branch, you can merge it with the master 
 
 Git COMMAND
 git checkout -b xxxxxx
-xxx being your feature branch name
+-b means make a new branch
+xxx being your new branch's name
+if you want to go to a certain branch
+just type
+git checkout xxxx
+xxxx being the name of the branch
+after that everything you changed in the new branch will go back to what it was
+and if I made some chages to the master branch
+and I want them to be synced to this new branch
+
+I can use
+git merge master
+this allows your current branch be merged with the master branch
