@@ -1,0 +1,42 @@
+GitHub workflow:
+
+Repositories(Repo): Is basically a file that srores all the codes.
+
+local repo: it's on your personal device where you store all your codes and changes.
+
+remote repo: It's like a cloud where you store all of the changes,especially envolves multiple developers,
+             Developers make changes to their Local Repo,and then they can upload them to the remote repo(this process is called Push)
+             And every contributors can take/sync their codes with the remote repo £¨this process is called Pull£© which is basically where all the contributors have stored their changes
+             So in the remote repo, you will find all the changes your team or yourself have made, and you can pull them to your local repo, and git will  automatically integrate the local repo with the changes.
+
+
+
+Git History and Branches
+
+Commits: You can commit all your changes, by doing so, you store all your changes and codes to the history for future to see,
+         IT'S BASICALLY LIKE A CHECKPOINT, WHERE YOU CAN GO BACK,
+         Who made the commit, What time the commit happened, Who changed what files, When they were changed within files
+
+
+GitHub track all the commits
+
+And all the changes after each developers push them to the Remote Repo, they form some sort of a timeline which recorded everything
+         Which forms the master branch
+
+Master Branch
+it's a timeline which stored all the commits from different people.
+and this is the core code base.
+it can not be changed easily since it's the core and maybe thats the only one that works.
+
+so you can't push some stupid code or mistakes in to the master branch in case some other developer pull it down and find out that the master branch is fucked up
+so their local branch is also fucked up since git will automaticlly combine them
+
+Feature Branches
+Above is the reason why we have other branches, so you can commit changes on this branch without effecting the master branch
+
+Merge
+and if you are satisfied with this new branch, you can merge it with the master branch, so github will merge them together.
+
+Git COMMAND
+git checkout -b xxxxxx
+xxx being your feature branch name
