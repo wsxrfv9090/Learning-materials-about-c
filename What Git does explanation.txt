@@ -52,3 +52,17 @@ and I want them to be synced to this new branch
 I can use
 git merge master
 this allows your current branch be merged with the master branch
+
+if I want to push feature branch
+use git push origin xxx
+xxx being your branch
+and then you can use github to merge them together
+
+
+PULL request
+command: git pull origin master
+
+
+if there's a push conflict
+git bash will tell you which file it is
+then i'll have to manually fix it and then commit then push
