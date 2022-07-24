@@ -69,5 +69,26 @@
     <ClCompile Include="for循环的题目.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="dowhile循环语句例子.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="循环练习1：计算n的阶乘.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="循环练习2：计算n的阶乘的和.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="循环练习3：二分法查找元素.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="循环练习4：显示闪烁.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="循环练习5：模拟用户登录场景，且只登陆三次.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分支与循环练习题1：猜数字游戏.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

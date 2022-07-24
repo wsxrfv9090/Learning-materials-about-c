@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dowhile循环语句例子.c" />
     <ClCompile Include="for循环的题目.c" />
     <ClCompile Include="For循环例子.c" />
     <ClCompile Include="for循环例子2%28内有取数组元素）.c" />
@@ -144,7 +145,13 @@
     <ClCompile Include="while循环例子.c" />
     <ClCompile Include="getchar,putchar例子.c" />
     <ClCompile Include="while循环例子2.c" />
+    <ClCompile Include="分支与循环练习题1：猜数字游戏.c" />
     <ClCompile Include="分支循环笔记.c" />
+    <ClCompile Include="循环练习2：计算n的阶乘的和.c" />
+    <ClCompile Include="循环练习1：计算n的阶乘.c" />
+    <ClCompile Include="循环练习3：二分法查找元素.c" />
+    <ClCompile Include="循环练习4：显示闪烁.c" />
+    <ClCompile Include="循环练习5：模拟用户登录场景，且只登陆三次.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
