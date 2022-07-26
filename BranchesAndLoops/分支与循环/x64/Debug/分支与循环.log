@@ -1,5 +1,6 @@
-﻿  循环练习5：模拟用户登录场景，且只登陆三次.c
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\循环练习5：模拟用户登录场景，且只登陆三次.c(28,12): warning C4473: “printf”: 没有为格式字符串传递足够的参数
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\循环练习5：模拟用户登录场景，且只登陆三次.c(28,12): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\循环练习5：模拟用户登录场景，且只登陆三次.c(28,12): message : 缺失的可变参数 2 为格式字符串“%d”所需
+﻿  分支与循环练习题1：猜数字游戏.c
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\分支与循环练习题1：猜数字游戏.c(46,20): warning C4047: “函数”:“const char *”与“char”的间接级别不同
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\分支与循环练习题1：猜数字游戏.c(46,14): warning C4024: “strcmp”: 形参和实参 1 的类型不同
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\分支与循环练习题1：猜数字游戏.c(48,25): warning C4047: “函数”:“const char *”与“char”的间接级别不同
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\分支与循环练习题1：猜数字游戏.c(48,19): warning C4024: “strcmp”: 形参和实参 1 的类型不同
   分支与循环.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\x64\Debug\分支与循环.exe
