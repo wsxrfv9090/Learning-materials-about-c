@@ -1,6 +1,2 @@
 ﻿  分支与循环练习题1：猜数字游戏.c
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\分支与循环练习题1：猜数字游戏.c(46,20): warning C4047: “函数”:“const char *”与“char”的间接级别不同
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\分支与循环练习题1：猜数字游戏.c(46,14): warning C4024: “strcmp”: 形参和实参 1 的类型不同
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\分支与循环练习题1：猜数字游戏.c(48,25): warning C4047: “函数”:“const char *”与“char”的间接级别不同
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\分支与循环练习题1：猜数字游戏.c(48,19): warning C4024: “strcmp”: 形参和实参 1 的类型不同
   分支与循环.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\x64\Debug\分支与循环.exe
