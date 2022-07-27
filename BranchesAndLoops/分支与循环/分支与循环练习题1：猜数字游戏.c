@@ -1,79 +1,96 @@
-#define _CRT_SECURE_NO_WARNINGS
+#include <windows.h>
 #include <stdio.h>
-#include <Windows.h>
-#include <time.h>
 #include <stdlib.h>
-#include <string.h>
+#include <time.h>
 
-//Ğ´Ò»¸ö²ÂÊı×ÖÓÎÏ·
-//1.×Ô¶¯²úÉúÒ»¸ö1-100Ö®¼äµÄÊı×Ö
-//2.²ÂÊı×Ö
-//  a.²Â¶ÔÁË£º¾Í¹§Ï²Äã£¬ÓÎÏ·½áÊø£»
-//  b.²Â´íÁË£º»á¸æËßÄãÄã²Â´óÁË»¹ÊÇ²ÂĞ¡ÁËÖ±µ½²Â¶ÔÁË¡£
-//3.²Â¶ÔºóÓÎÏ·»á×Ô¶¯ÖØĞÂ×Ô¶¯²úÉúÊı×ÖÈÃÄã²Â
+//å†™ä¸€ä¸ªçŒœæ•°å­—æ¸¸æˆ
+// 1.è‡ªåŠ¨äº§ç”Ÿä¸€ä¸ª1-100ä¹‹é—´çš„æ•°å­—
+// 2.çŒœæ•°å­—
+//  a.çŒœå¯¹äº†ï¼šå°±æ­å–œä½ ï¼Œæ¸¸æˆç»“æŸï¼›
+//  b.çŒœé”™äº†ï¼šä¼šå‘Šè¯‰ä½ ä½ çŒœå¤§äº†è¿˜æ˜¯çŒœå°äº†ç›´åˆ°çŒœå¯¹äº†ã€‚
+// 3.çŒœå¯¹åæ¸¸æˆä¼šè‡ªåŠ¨é‡æ–°è‡ªåŠ¨äº§ç”Ÿæ•°å­—è®©ä½ çŒœ
 
-
-void game()//
+void game()
 {
-	//system("cls");
-	do
-	{
-		printf("Let the Game start!!!!\nType your guess here: ");
-		srand((unsigned int)time(NULL));
-		int random = rand() % 100 + 1;
-		printf("%d\n", random);
-		int input2;
-		scanf("%d", &input2);
-		do
-		{
-			if (input2 < random)
-			{
-				system("cls");
-				printf("Bigger\nYour last guess: %d\nTry again: ", input2);
-				scanf("%d", &input2);
-			}
-			else if (input2 > random)
-			{
-				system("cls");
-				printf("Smaller\nYour last guess: %d\nTry again: ", input2);
-				scanf("%d", &input2);
-			}
-		} while (input2 != random);
-		system("cls");
-		printf("Congrats! You've got it! The answer is %d\nWould you like to try again?\n(Y/N)", random);
-		char input3;
-		scanf("%s", &input3);
-		if (strcmp(input3, "Y") == 0)
-			continue;
-		else if (strcmp(input3, "Y") > 0)
-			break;
-	} while (1);
+    system("cls");
+
+    while (1)
+    {
+        printf("Let the Game start!!! \n");
+
+        srand((unsigned int)time(NULL));
+        int random = rand() % 100 + 1;
+        printf("result = %d\n\n", random);
+
+        printf("Enter your guess here: ");
+        int input2;
+
+        do
+        {
+            scanf("%d", &input2);
+            if (input2 < random)
+            {
+                printf("Bigger. \n\n");
+            }
+
+            if (input2 > random)
+            {
+                printf("Smaller. \n\n");
+            }
+
+            printf("Try again: ");
+        } while (input2 != random);
+
+        system("cls");
+
+        printf("Congrats! You've got it! The answer is %d. \n", random);
+        printf("Would you like to try again? (Y/N)\n");
+
+        char input3;
+        fflush(stdin);
+        scanf("%c", &input3);
+
+        if (input3 == 'Y')
+            continue;
+        if (input3 == 'N')
+            break;
+        else
+            printf("%c is not an option, please try again! \n", input3);
+    }
 }
 
 int main()
 {
-	printf("Sublime Game designed by Davy!\nDo you want to start your game?\n1.YES! Let's go!!!\n2.NO! I'll pass!\nType your answer here: ");
-	int input1 = 0;
+    char input1;
+
+    printf("Sublime Game designed by Davy! \n\n");
+    printf("Do you want to start your game? \n");
+    printf("1.Yes! Let's go!!! \n");
+    printf("2.No! I'll pass! \n");
+	       
 	do
 	{
-		scanf("%d", &input1);
-		if (input1 == 1)
-		{
-			system("cls");
-			game();
-			break;
-		}
-		else if (input1 == 2)
-		{
-			printf("Okay, maybe next time.");
-			break;
-		}
-		else
-		{
-			system("cls");
-			printf("%d is not an option, please try again!\n\n", input1);
-			printf("Sublime Game designed by Davy!\nDo you want to start your game?\n1.YES! Let's go!!!\n2.NO! I'll pass!\nType your answer here: ");
-		}
-	} while (input1 != 2);
+        printf("Enter your answer here: ");
+
+        fflush(stdin);
+        scanf("%c", &input1);
+
+        if (input1 == '1')
+        {
+            system("cls");
+            game();
+            break;
+        }
+
+        if (input1 == '2')
+        {
+            system("cls");
+            printf("Okay, maybe next time. ");
+            break;
+        }
+
+        printf("%c is not an option, please try again! \n\n", input1);
+	} while (input1 != '2');
+
 	return 0;
 }
