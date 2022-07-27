@@ -146,6 +146,11 @@
     <ClCompile Include="getchar,putchar例子.c" />
     <ClCompile Include="while循环例子2.c" />
     <ClCompile Include="分支与循环练习题1：猜数字游戏.c" />
+    <ClCompile Include="分支与循环练习题3：打印所有1—100之间的三的倍数的数.c" />
+    <ClCompile Include="分支与循环练习题4：找两个数的最大公约数.c" />
+    <ClCompile Include="分支与循环练习题2：给数字排序.c" />
+    <ClCompile Include="分支与循环练习题5：打印1000年到2000年之间的闰年.c" />
+    <ClCompile Include="分支与循环练习题6：打印100到200之间的素数.c" />
     <ClCompile Include="分支循环笔记.c" />
     <ClCompile Include="循环练习2：计算n的阶乘的和.c" />
     <ClCompile Include="循环练习1：计算n的阶乘.c" />
