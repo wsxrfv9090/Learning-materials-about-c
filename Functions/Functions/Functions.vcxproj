@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -17,12 +17,13 @@
       <Configuration>Release</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
+
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bdcde6b8-f85f-4d2d-92e0-59b94ba4e25b}</ProjectGuid>
-    <RootNamespace>分支与循环</RootNamespace>
+    <ProjectGuid>{6e4d168d-7d82-45e4-9149-238deb348aa5}</ProjectGuid>
+    <RootNamespace>Functions</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -52,24 +53,27 @@
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
+
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared">
+  <ImportGroup Label="Shared" >
   </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
-  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-  </ImportGroup>
+    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    </ImportGroup>
+    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    </ImportGroup>
+    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    </ImportGroup>
+    <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    </ImportGroup>
+
   <PropertyGroup Label="UserMacros" />
+
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -126,43 +130,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="dowhile循环语句例子.c" />
-    <ClCompile Include="for循环的题目.c" />
-    <ClCompile Include="For循环例子.c" />
-    <ClCompile Include="for循环例子2%28内有取数组元素）.c" />
-    <ClCompile Include="for循环变种.c" />
-    <ClCompile Include="for循环变种2.c" />
-    <ClCompile Include="goto语句例子.c" />
-    <ClCompile Include="if1.c" />
-    <ClCompile Include="if例子.c" />
-    <ClCompile Include="if2.c" />
-    <ClCompile Include="jj.c" />
-    <ClCompile Include="switch例子.c" />
-    <ClCompile Include="switch例子2.c" />
-    <ClCompile Include="switch笔记.c" />
-    <ClCompile Include="switch语句作业.c" />
-    <ClCompile Include="test getchar的利用.c" />
-    <ClCompile Include="while循环例子.c" />
-    <ClCompile Include="getchar,putchar例子.c" />
-    <ClCompile Include="while循环例子2.c" />
-    <ClCompile Include="分支与循环习题1.c" />
-    <ClCompile Include="分支与循环习题2.c" />
-    <ClCompile Include="分支与循环习题3.c" />
-    <ClCompile Include="分支与循环练习题1：猜数字游戏.c" />
-    <ClCompile Include="分支与循环练习题3：打印所有1—100之间的三的倍数的数.c" />
-    <ClCompile Include="分支与循环练习题4.c" />
-    <ClCompile Include="分支与循环练习题4：找两个数的最大公约数.c" />
-    <ClCompile Include="分支与循环练习题2：给数字排序.c" />
-    <ClCompile Include="分支与循环练习题5：打印1000年到2000年之间的闰年.c" />
-    <ClCompile Include="分支与循环练习题6：打印100到200之间的素数.c" />
-    <ClCompile Include="分支循环笔记.c" />
-    <ClCompile Include="循环练习2：计算n的阶乘的和.c" />
-    <ClCompile Include="循环练习1：计算n的阶乘.c" />
-    <ClCompile Include="循环练习3：二分法查找元素.c" />
-    <ClCompile Include="循环练习4：显示闪烁.c" />
-    <ClCompile Include="循环练习5：模拟用户登录场景，且只登陆三次.c" />
-  </ItemGroup>
+
+  <ItemGroup></ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

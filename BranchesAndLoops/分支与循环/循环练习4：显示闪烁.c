@@ -11,7 +11,7 @@
 //	int left = 0;
 //	int right = strlen(arr1) - 1;//部分编译器strlen需要引用头文件<string.h>
 //	printf("%s\n", arr2);
-//	Sleep(1000);
+//	Sleep(1000);//需要引入头文件Windows.h
 //	system("cls");
 //	while (left-right<=1)
 //	{

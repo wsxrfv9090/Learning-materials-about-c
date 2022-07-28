@@ -105,5 +105,20 @@
     <ClCompile Include="分支与循环练习题6：打印100到200之间的素数.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="goto语句例子.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分支与循环习题1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分支与循环习题2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分支与循环习题3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="分支与循环练习题4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
