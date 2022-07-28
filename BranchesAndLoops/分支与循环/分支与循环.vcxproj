@@ -151,7 +151,7 @@
     <ClCompile Include="分支与循环习题3.c" />
     <ClCompile Include="分支与循环练习题1：猜数字游戏.c" />
     <ClCompile Include="分支与循环练习题3：打印所有1—100之间的三的倍数的数.c" />
-    <ClCompile Include="分支与循环练习题4.c" />
+    <ClCompile Include="分支与循环习题4.c" />
     <ClCompile Include="分支与循环练习题4：找两个数的最大公约数.c" />
     <ClCompile Include="分支与循环练习题2：给数字排序.c" />
     <ClCompile Include="分支与循环练习题5：打印1000年到2000年之间的闰年.c" />

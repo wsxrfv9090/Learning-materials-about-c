@@ -117,7 +117,7 @@
     <ClCompile Include="分支与循环习题3.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="分支与循环练习题4.c">
+    <ClCompile Include="分支与循环习题4.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
