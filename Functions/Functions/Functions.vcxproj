@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -128,11 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Calls of Functions example1.c" />
-    <ClCompile Include="Calls of Functions examples2.c" />
+    <ClCompile Include="Calls of Functions examples3.c" />
+    <ClCompile Include="Calls of Functions examples4.c" />
+    <ClCompile Include="Problemo Code.c" />
     <ClCompile Include="Concepts of parameters.c" />
     <ClCompile Include="Custom Functions example.c" />
     <ClCompile Include="Custom Functions example2.c" />
     <ClCompile Include="Some of the Concepts of functions.c" />
+    <ClCompile Include="Calls of Functions examples2.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

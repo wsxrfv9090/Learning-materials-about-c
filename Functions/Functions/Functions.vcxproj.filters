@@ -33,5 +33,14 @@
     <ClCompile Include="Calls of Functions examples2.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Calls of Functions examples3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Problemo Code.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Calls of Functions examples4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
