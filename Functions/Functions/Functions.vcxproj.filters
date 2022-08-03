@@ -36,10 +36,13 @@
     <ClCompile Include="Calls of Functions examples3.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Problemo Code.c">
+    <ClCompile Include="Calls of Functions examples4.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Calls of Functions examples4.c">
+    <ClCompile Include="Nested calls and Chained accesses of functions example.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="The Declaration and Definition of functions.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
