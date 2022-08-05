@@ -1,4 +1,5 @@
-﻿  分支与循环习题3.c
+﻿  jj.c
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\jj.c(10,2): warning C4013: “strcpy”未定义；假设外部返回 int
   分支与循环习题4.c
   正在生成代码...
   分支与循环.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\x64\Debug\分支与循环.exe

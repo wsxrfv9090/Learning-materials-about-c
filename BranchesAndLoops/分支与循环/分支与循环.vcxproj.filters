@@ -54,7 +54,7 @@
     <ClCompile Include="For循环例子.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="jj.c">
+    <ClCompile Include="atof函数.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="for循环例子2%28内有取数组元素）.c">

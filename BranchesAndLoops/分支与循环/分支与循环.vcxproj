@@ -137,7 +137,7 @@
     <ClCompile Include="if1.c" />
     <ClCompile Include="if例子.c" />
     <ClCompile Include="if2.c" />
-    <ClCompile Include="jj.c" />
+    <ClCompile Include="atof函数.c" />
     <ClCompile Include="switch例子.c" />
     <ClCompile Include="switch例子2.c" />
     <ClCompile Include="switch笔记.c" />
