@@ -130,6 +130,7 @@
     <ClCompile Include="Calls of Functions example1.c" />
     <ClCompile Include="Calls of Functions examples3.c" />
     <ClCompile Include="Calls of Functions examples4.c" />
+    <ClCompile Include="How to conseal your codes with lib file.c" />
     <ClCompile Include="Nested calls and Chained accesses of functions example.c" />
     <ClCompile Include="Concepts of parameters.c" />
     <ClCompile Include="Custom Functions example.c" />

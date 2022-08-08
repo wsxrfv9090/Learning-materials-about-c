@@ -45,5 +45,8 @@
     <ClCompile Include="The Declaration and Definition of functions.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="How to conseal your codes with lib file.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
