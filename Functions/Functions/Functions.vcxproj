@@ -137,7 +137,10 @@
     <ClCompile Include="Custom Functions example2.c" />
     <ClCompile Include="Some of the Concepts of functions.c" />
     <ClCompile Include="Calls of Functions examples2.c" />
+    <ClCompile Include="Stack Overflow explination.c" />
     <ClCompile Include="The Declaration and Definition of functions.c" />
+    <ClCompile Include="The Recursion of Functions examples1.c" />
+    <ClCompile Include="The Recursion of Functions.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

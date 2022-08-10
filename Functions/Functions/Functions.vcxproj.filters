@@ -48,5 +48,14 @@
     <ClCompile Include="How to conseal your codes with lib file.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="The Recursion of Functions.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="The Recursion of Functions examples1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack Overflow explination.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
