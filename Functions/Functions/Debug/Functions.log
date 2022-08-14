@@ -1,4 +1,2 @@
-﻿  Recursion and Iteration examples2.c
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Functions\Functions\Recursion and Iteration examples2.c(18,20): warning C4474: scanf_s: 格式字符串中传递的参数太多
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Functions\Functions\Recursion and Iteration examples2.c(18,20): message : 占位符和其参数预计 1 可变参数，但提供的却是 2 参数
+﻿  Recursion Homework1：The tower of Hanoi.c
   Functions.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Functions\Debug\Functions.exe

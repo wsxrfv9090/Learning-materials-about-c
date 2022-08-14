@@ -8,3 +8,19 @@
 //circle is always below smaller ones.
 //
 //Write a code to make this happen:
+#include <stdio.h>
+void Move()
+{
+
+}
+int main()
+{
+	int arrA[] = { 1,2,3 };
+	int arrB[3] = { 0 };
+	int arrC[3] = { 0 };
+	char 1stColumn = 0;
+	char 2ndColumn = 0;
+	Move();
+
+	return 0;
+}
