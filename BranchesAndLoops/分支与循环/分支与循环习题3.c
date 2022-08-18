@@ -6,10 +6,8 @@
 //int main()
 //{
 //	int arr[10] = { 0 };
-//	for (int tmp = 0; tmp<10;tmp++)
-//	{
+//	for (int tmp = 0; tmp < 10; tmp++)
 //		scanf("%d", &arr[tmp]);
-//	}
 //	int i = 0;
 //	int re = arr[i];
 //	while (i < 10)

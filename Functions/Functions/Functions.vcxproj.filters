@@ -72,5 +72,14 @@
     <ClCompile Include="Recursion Homework2：Frog Jumping the stairs.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Functions exercises1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions exercises2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions exercises3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
