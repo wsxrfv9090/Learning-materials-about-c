@@ -1,13 +1,13 @@
 ////Code a function to culculate the length of string without establishing a temporary variable
 ////this is how we normally culculate it:
-//#include <string.h>
-//#include <stdio.h>
-//int main()
-//{
-//	char arr[] = "abc";
-//	printf("%d\n", strlen(arr));
-//	return 0;
-//}
+////#include <string.h>
+////#include <stdio.h>
+////int main()
+////{
+////	char arr[] = "abc";
+////	printf("%d\n", strlen(arr));
+////	return 0;
+////}
 //
 //#include <stdio.h>
 //int my_strlen(char* str)
