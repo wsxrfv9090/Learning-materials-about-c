@@ -1,4 +1,4 @@
-﻿  Functions exercises2.c
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Functions\Functions\Functions exercises2.c(9): warning C4717: “DigitSum”: 如递归所有控件路径，函数将导致运行时堆栈溢出
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Functions\Functions\Functions exercises2.c(9): warning C4715: “DigitSum”: 不是所有的控件路径都返回值
+﻿  Functions exercises3.c
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Functions\Functions\Functions exercises3.c(16,27): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Functions\Functions\Functions exercises3.c(16,27): message : 占位符和其参数预计 2 可变参数，但提供的却是 4 参数
   Functions.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Functions\Debug\Functions.exe
