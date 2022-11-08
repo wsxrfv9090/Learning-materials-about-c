@@ -1,3 +1,4 @@
-﻿  test subject.c
-D:\My codes\test subject\test subject.c(15,9): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int”
-  test subject.vcxproj -> D:\My codes\test subject\Debug\test subject.exe
+﻿  test.c
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\EXforFunctions\test.c(62,25): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\EXforFunctions\test.c(94,35): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  test subject.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\EXforFunctions\Debug\test subject.exe
