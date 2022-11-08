@@ -1,4 +1,42 @@
-﻿  分支与循环习题3.c
+﻿  dowhile循环语句例子.c
+  for循环的题目.c
+  For循环例子.c
+  for循环例子2(内有取数组元素）.c
+  for循环变种.c
+  for循环变种2.c
+  goto语句例子.c
+  if1.c
+  if例子.c
+  if2.c
+  atof函数.c
+  switch例子.c
+  switch例子2.c
+  switch笔记.c
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\switch笔记.c(1,1): warning C4828: 文件包含在偏移 0xc2 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  switch语句作业.c
+  test getchar的利用.c
+  while循环例子.c
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\while循环例子.c(1,1): warning C4828: 文件包含在偏移 0x1b9 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  getchar,putchar例子.c
+  while循环例子2.c
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\分支与循环\while循环例子2.c(1,1): warning C4828: 文件包含在偏移 0x114 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+  分支与循环习题1.c
+  正在生成代码...
+  正在编译...
+  分支与循环习题2.c
+  分支与循环习题3.c
+  分支与循环练习题1：猜数字游戏.c
+  分支与循环练习题3：打印所有1—100之间的三的倍数的数.c
   分支与循环习题4.c
+  分支与循环练习题4：找两个数的最大公约数.c
+  分支与循环练习题2：给数字排序.c
+  分支与循环练习题5：打印1000年到2000年之间的闰年.c
+  分支与循环练习题6：打印100到200之间的素数.c
+  分支循环笔记.c
+  循环练习2：计算n的阶乘的和.c
+  循环练习1：计算n的阶乘.c
+  循环练习3：二分法查找元素.c
+  循环练习4：显示闪烁.c
+  循环练习5：模拟用户登录场景，且只登陆三次.c
   正在生成代码...
   分支与循环.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\BranchesAndLoops\x64\Debug\分支与循环.exe
