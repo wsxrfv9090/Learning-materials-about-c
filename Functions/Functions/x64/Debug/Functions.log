@@ -1,4 +1,2 @@
-﻿  Functions exercises3.c
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Functions\Functions\Functions exercises3.c(17,27): warning C4474: scanf_s: 格式字符串中传递的参数太多
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Functions\Functions\Functions exercises3.c(17,27): message : 占位符和其参数预计 2 可变参数，但提供的却是 4 参数
+﻿  Recursion Homework2：Frog Jumping the stairs.c
   Functions.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Functions\x64\Debug\Functions.exe
