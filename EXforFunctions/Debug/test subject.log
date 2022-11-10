@@ -1,4 +1,2 @@
-﻿  test.c
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\EXforFunctions\test.c(62,25): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
-D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\EXforFunctions\test.c(94,35): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+﻿  243.c
   test subject.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\EXforFunctions\Debug\test subject.exe
