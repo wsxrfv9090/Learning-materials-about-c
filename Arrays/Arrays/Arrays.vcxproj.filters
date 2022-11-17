@@ -27,5 +27,17 @@
     <ClCompile Include="Storing of Unidimentional Array.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Creating and Initializing of two-arays.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Applications of two-arrays.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Storing of Two-arrays.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrays as a parameter for functions.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -127,8 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Applications of two-arrays.c" />
+    <ClCompile Include="Arrays as a parameter for functions.c" />
+    <ClCompile Include="Creating and Initializing of two-arays.c" />
     <ClCompile Include="Defining and Creating of array.c" />
     <ClCompile Include="Learning_Points.c" />
+    <ClCompile Include="Storing of Two-arrays.c" />
     <ClCompile Include="Storing of Unidimentional Array.c" />
     <ClCompile Include="The Application of Unidimentional array.c" />
   </ItemGroup>

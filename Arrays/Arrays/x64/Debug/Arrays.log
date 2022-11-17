@@ -1,2 +1,10 @@
-﻿  Storing of Unidimentional Array.c
-  Arrays.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Arrays\x64\Debug\Arrays.exe
+﻿  Arrays as a parameter for functions.c
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Arrays\Arrays\Arrays as a parameter for functions.c(17,37): error C2109: 下标要求数组或指针类型
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Arrays\Arrays\Arrays as a parameter for functions.c(22,13): error C2109: 下标要求数组或指针类型
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Arrays\Arrays\Arrays as a parameter for functions.c(22,26): error C2109: 下标要求数组或指针类型
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Arrays\Arrays\Arrays as a parameter for functions.c(24,20): error C2109: 下标要求数组或指针类型
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Arrays\Arrays\Arrays as a parameter for functions.c(25,10): error C2109: 下标要求数组或指针类型
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Arrays\Arrays\Arrays as a parameter for functions.c(25,23): error C2109: 下标要求数组或指针类型
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Arrays\Arrays\Arrays as a parameter for functions.c(26,14): error C2109: 下标要求数组或指针类型
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Arrays\Arrays\Arrays as a parameter for functions.c(36,18): warning C4047: “函数”:“int”与“int (*)[10]”的间接级别不同
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Arrays\Arrays\Arrays as a parameter for functions.c(36,14): warning C4024: “bubble_sort”: 形参和实参 1 的类型不同
