@@ -6,7 +6,7 @@
 int main() {
 	StaticSeqList List;
 	InitList(&List, 10);
-	List.size = Length(List);
+	List.size = Length(&List);
 	for (int i = 0; i < List.capacity; i++)
 		ListInsert(&List, i, generateRandomInt(), generateRandomString(STRING_LENGTH));
 	printElementType(&List);

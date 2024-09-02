@@ -1,5 +1,5 @@
 #include "structures.h"
-#include "stdlib.h"
+
 #include <limits.h>
 #include <stdlib.h>
 #include <time.h> 
@@ -8,23 +8,33 @@
 
 char* generateRandomString(size_t length) {
 	char* string = malloc((length + 1) * sizeof(char));
+	//Allocating space for the string, keep in mind that later in the main function, you have to free it.
 	if (string == NULL) {
 		return NULL;
+		//Checking if the allocation was successful.
 	}
 	char charset[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	//Be aware that the charset array also contains a terminator '\0',hence the '+1' and '-1'.
 	size_t charsetSize = sizeof(charset) - 1; 
 	for (size_t i = 0; i < length; i++) {
 		size_t index = rand() % charsetSize;
+		//This part ensures that index will only go through from 0 to charsetSize - 1.
 		string[i] = charset[index];
 	}
 	string[length] = '\0'; 
+	//Adding the terminator at the end.
 	return string;
 }
 
 int generateRandomInt() {
 	int rand1 = rand();
 	int rand2 = rand();
-	int randomInt = rand1 | (rand2 << 16); // Combine two values to potentially cover a wider range
+	int randomInt = rand1 | (rand2 << 16); 
+	// Combine two values to potentially cover a wider range
+	//Shifting rand2 to the left for 16 bits, and then use OR operator to combine them together, so potentiaolly
+	//by using this, I fill the interger space which is 32 bits long.
+	//On my machine, an interger stores 32 bits at most, so I did this, to generate a random interger.
+	//And notice that this is signed interger, which means the minimum is -2^31, the maximum is 2^31 - 1
 	return randomInt;
 }
 
@@ -32,6 +42,7 @@ void printElementType(StaticSeqList *List) {
 	if (List->size > List->capacity || List->array == NULL) {
 		printf("Something is wrong in printElementType function.\n");
 		exit(1);
+		//Here should implement the full exit error status code later
 	}
 	for (size_t i = 0; i < List->size; i++) {
 		printf("Number in ElementType place %zu: %d\n", i, List->array[i].number);
@@ -57,7 +68,7 @@ void InitList(StaticSeqList *List, size_t initialCapa) {
 	}
 }
 
-size_t Length(StaticSeqList *L) {
+size_t Length(StaticSeqList* L) {
 	size_t len = 0;
 	for (size_t i = 0; i < L->capacity - 1; i++) {
 		if (L->array[i].isUsed != false)
@@ -100,14 +111,14 @@ bool IfNumEqual(ElementType a, ElementType b) {
 	return false;
 }
 
-bool IfStringEqual(ElementType a, char* string) {
-	if ()
-}
-
-size_t LocateElem(StaticSeqList* ListPtr, ElementType e) {
-
-}
-
-size_t LocateNum(StaticSeqList* ListPtr, int num) {
-
-}
+//bool IfStringEqual(ElementType a, char* string) {
+//	if ()
+//}
+//
+//size_t LocateElem(StaticSeqList* ListPtr, ElementType e) {
+//
+//}
+//
+//size_t LocateNum(StaticSeqList* ListPtr, int num) {
+//
+//}

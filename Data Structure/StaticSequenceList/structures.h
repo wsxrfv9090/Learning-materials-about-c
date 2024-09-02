@@ -9,6 +9,8 @@ typedef struct {
 }ElementType;
 
 
+
+
 typedef struct {
 	ElementType* array;
 	size_t size;
