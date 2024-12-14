@@ -1,0 +1,10 @@
+﻿  Pointer.c
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Pointers\Pointer.c(4,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Pointers\Pointer.c(4,9):
+  consider using '%zd' in the format string
+  
+D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Pointers\Pointer.c(5,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+  D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Pointers\Pointer.c(5,9):
+  consider using '%zd' in the format string
+  
+  Pointers.vcxproj -> D:\ImportanFiles\Coding Related\Repositories\Learning materials about c\Pointers\x64\Debug\Pointers.exe
